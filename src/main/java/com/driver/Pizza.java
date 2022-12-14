@@ -55,13 +55,13 @@ public class Pizza {
         // your code goes here
 
         if (this.isCheeseAdded) {
-            this.bill = bill + "Extra Cheese Added: 80\n";
+            this.bill = bill + "Extra Cheese Added: " + 80 + "\n";
         }
         if (this.isToppingAdded) {
             this.bill = bill + "Extra Toppings Added: " + this.extraToppingPrice + "\n";
         }
         if (this.isBagAdded) {
-            this.bill = this.bill + "Paperbag Added: 20" + "\n";
+            this.bill = this.bill + "Paperbag Added: " + 20 + "\n";
         }
         this.bill = this.bill + "Total Price: " + this.price + "\n";
         return this.bill;
